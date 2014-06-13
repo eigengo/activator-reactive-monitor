@@ -4,8 +4,6 @@ version := "1.0"
 
 scalaVersion := "2.10.4"
 
-resolvers += Resolver.file("Local repo", file(System.getProperty("user.home") + "/.ivy2/local"))(Resolver.ivyStylePatterns)
-
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.3.3",
   "org.eigengo.monitor" % "agent-akka" % "0.4-SNAPSHOT",
